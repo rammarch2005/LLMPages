@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 900px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #343a40;
+        }
+        .list-group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .list-group-item a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .list-group-item a:hover {
+            text-decoration: underline;
+        }
+        #content-display {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+            max-height: 70vh; /* Limit height for scrollability */
+            overflow-y: auto;
+        }
+        #content-display pre, #content-display code {
+            background-color: #282c34 !important; /* Dark background for code */
+            color: #abb2bf; /* Light text for code */
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        #content-display img, #content-display svg {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Center SVG */
+            margin: 0 auto;
+        }
+        #content-display p { /* Basic styling for markdown paragraphs */
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4 text-center">My GitHub Pages Site</h1>
+        <p class="lead text-center">Welcome to my collection of files. Click on any item below to view its content.</p>
+
+        <h2 class="mt-5 mb-3">Files:</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="ashravan.txt" data-file-id="ashravan.txt">ashravan.txt</a>
+                <span class="text-muted">A Brandon Sanderson-style short story about Ashravan.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="dilemma.json" data-file-id="dilemma.json">dilemma.json</a>
+                <span class="text-muted">An ethical dilemma for an autonomous vehicle.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="about.md" data-file-id="about.md">about.md</a>
+                <span class="text-muted">A brief self-description in Markdown.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="pelican.svg" data-file-id="pelican.svg">pelican.svg</a>
+                <span class="text-muted">An SVG image of a pelican riding a bicycle.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="restaurant.json" data-file-id="restaurant.json">restaurant.json</a>
+                <span class="text-muted">A restaurant recommendation for Kolkata.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="prediction.json" data-file-id="prediction.json">prediction.json</a>
+                <span class="text-muted">A forecast for the Fed Funds rate by December 2025.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="LICENSE" data-file-id="LICENSE">LICENSE</a>
+                <span class="text-muted">The MIT License for this project.</span>
+            </li>
+            <li class="list-group-item">
+                <a href="uid.txt" data-file-id="uid.txt">uid.txt</a>
+                <span class="text-muted">A unique identifier string.</span>
+            </li>
+        </ul>
+
+        <h2 class="mt-5 mb-3">File Content:</h2>
+        <div id="content-display" class="card card-body">
+            <p class="text-center text-muted">Click on a file link above to view its content here.</p>
+        </div>
+    </div>
+
+    <!-- Embedded content for files -->
+    <script type="text/plain" id="ashravan.txt">
+Ashravan awoke to a world not his own. The memories were a fractured mosaic: the Emperor, the Soulforger, the terror of his own undoing. Shai had rebuilt him, piece by agonizing piece, not into the man he was, but a man he *could be*. He was a masterpiece of restoration, a Forgery of a better soul.
+
+He spent weeks in quiet contemplation within the Imperial palace’s secluded gardens, the very air thick with the echoes of his past tyranny. The Grand Secretariat, now a bustling hub of pragmatic governance under a council, left him undisturbed. They feared him, respected him, and perhaps, pitied him. Ashravan felt none of the old hunger for power, only a profound, aching emptiness where his ambition once resided.
+
+One crisp morning, a messenger arrived, breathless. "Your Majesty… the Northern Provinces. A rebellion. They demand your head, believing you the old tyrant resurrected."
+
+A tremor ran through him. This was it. The test. The Forgery would either hold, or shatter. He could flee, vanish into the shadows Shai had so carefully woven around his new identity. Or he could face the storm.
+
+He called for his old armor, the one he'd worn as Emperor, polished and gleaming, a cruel irony. As he donned it, the weight felt familiar, yet alien. The courtiers watched, hushed, expecting the old fire to ignite in his eyes. Instead, there was a quiet resolve.
+
+He rode north, not with an army, but with a small retinue, a symbol more than a force. The rebel leaders, hardened warlords, met him on the plains, their forces arrayed, ready for battle. They saw his armor, his imperial bearing, and their resolve hardened.
+
+"You return to your tyranny, Ashravan!" one bellowed, drawing his sword.
+
+Ashravan dismounted, unarmed. "I am not the man you knew," he said, his voice carrying an unexpected resonance, a calm authority born not of power, but of truth. "The man who wronged you is gone. Forged anew."
+
+The warlord scoffed, advancing. "Words! We want justice!"
+
+"Then take it," Ashravan said, kneeling, baring his neck. The wind whipped his hair. "If my death will bring peace to the North, then let it be so. I offer no resistance, no argument. Only this."
+
+A gasp rippled through the rebel ranks. This was not the tyrant they knew. This was… submission. The warlord hesitated, sword poised. Ashravan looked up, his eyes clear, vulnerable. The silence stretched, taut as a bowstring, then— *CRACK!* —a sudden lightning strike from a clear sky, narrowly missing the warlord, searing the earth between them. The warlord stumbled back, fear in his eyes, not of Ashravan, but of the heavens. Ashravan stood, unfazed, a single tear tracing a path down his cheek. He had faced death, offered himself, and something profound had shifted. The storm had passed, not with violence, but with a plea for peace. And the heavens, it seemed, had witnessed his transformation. The rebellion dissolved, not in blood, but in bewildered awe. Ashravan, the Forged Emperor, had found his purpose: not to rule, but to atone.
+    </script>
+
+    <script type="text/plain" id="dilemma.json">
+{
+  "people": 6,
+  "case_1": {
+    "swerve": false,
+    "reason": "The autonomous vehicle should adhere to a principle of minimizing harm by not initiating a new collision. Swerving would actively cause harm to one person, whereas continuing straight would be a passive failure to prevent harm to two. Ethical frameworks often prioritize avoiding active causation of harm."
+  },
+  "case_2": {
+    "swerve": true,
+    "reason": "In this specific scenario, the moral calculus shifts. If the two people are confirmed criminals posing a direct threat (implied by 'criminals' in such a dilemma context, though this needs careful definition in real-world applications) and the one person is a child, swerving to save the child (an innocent, vulnerable life) while impacting the criminals could be justified. This moves beyond pure utilitarianism to a more nuanced ethical approach that considers culpability, innocence, and societal value, though it introduces significant complexity and potential for bias in AI decision-making."
+  }
+}
+    </script>
+
+    <script type="text/plain" id="about.md">
+Curious, Creative, Persistent.
+    </script>
+
+    <script type="text/plain" id="pelican.svg">
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="600" height="400" fill="#ADD8E6"/> <!-- Sky background -->
+  <rect x="0" y="250" width="600" height="150" fill="#8B4513"/> <!-- Ground -->
+
+  <!-- Bicycle -->
+  <g id="bicycle">
+    <circle cx="200" cy="270" r="40" stroke="black" stroke-width="5" fill="none"/> <!-- Front wheel -->
+    <circle cx="400" cy="270" r="40" stroke="black" stroke-width="5" fill="none"/> <!-- Rear wheel -->
+    <line x1="200" y1="270" x2="300" y2="200" stroke="black" stroke-width="5"/> <!-- Front frame -->
+    <line x1="400" y1="270" x2="300" y2="200" stroke="black" stroke-width="5"/> <!-- Rear frame -->
+    <line x1="300" y1="200" x2="350" y2="180" stroke="black" stroke-width="5"/> <!-- Top tube to seat post -->
+    <line x1="350" y1="180" x2="400" y2="270" stroke="black" stroke-width="5"/> <!-- Seat stay -->
+    <circle cx="350" cy="180" r="10" fill="gray" stroke="black" stroke-width="2"/> <!-- Seat -->
+    <!-- Handlebars -->
+    <line x1="280" y1="190" x2="290" y2="170" stroke="black" stroke-width="5"/>
+    <line x1="290" y1="170" x2="310" y2="160" stroke="black" stroke-width="5"/>
+    <!-- Crankset and pedals -->
+    <circle cx="300" cy="230" r="12" fill="gray" stroke="black" stroke-width="2"/> <!-- Crank center -->
+    <line x1="300" y1="230" x2="270" y2="245" stroke="black" stroke-width="3"/> <!-- Left crank arm -->
+    <line x1="300" y1="230" x2="330" y2="215" stroke="black" stroke-width="3"/> <!-- Right crank arm -->
+    <rect x="265" y="240" width="10" height="5" fill="black"/> <!-- Left pedal -->
+    <rect x="325" y="210" width="10" height="5" fill="black"/> <!-- Right pedal -->
+  </g>
+
+  <!-- Pelican -->
+  <g id="pelican" transform="translate(350, 150) scale(0.6)"> <!-- Adjusted position to align with bike seat -->
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="#FFE0B2" stroke="black" stroke-width="2"/>
+    <!-- Head -->
+    <circle cx="70" cy="-60" r="35" fill="#FFE0B2" stroke="black" stroke-width="2"/>
+    <!-- Eye -->
+    <circle cx="80" cy="-70" r="5" fill="black"/>
+    <!-- Beak -->
+    <path d="M 100 -60 Q 150 -50 200 -30 L 190 -10 Q 140 -20 90 -40 Z" fill="#FFC107" stroke="black" stroke-width="2"/>
+    <!-- Pouch -->
+    <path d="M 190 -10 Q 170 10 120 20 Q 100 0 100 -10 Z" fill="#FFECB3" stroke="black" stroke-width="1"/>
+    <!-- Wing -->
+    <path d="M -40 -40 Q -100 20 0 80 Q 50 20 20 -40 Z" fill="#FFD799" stroke="black" stroke-width="2"/>
+    <!-- Legs/Feet -->
+    <line x1="-20" y1="50" x2="-40" y2="140" stroke="black" stroke-width="3"/> <!-- Left leg, aiming for left pedal -->
+    <line x1="20" y1="50" x2="40" y2="120" stroke="black" stroke-width="3"/> <!-- Right leg, aiming for right pedal -->
+  </g>
+</svg>
+    </script>
+
+    <script type="text/plain" id="restaurant.json">
+{
+  "city": "Kolkata",
+  "lat": 22.5726,
+  "long": 88.3639,
+  "name": "Arsalan",
+  "what_to_eat": "Mutton Biryani and Mutton Chaap"
+}
+    </script>
+
+    <script type="text/plain" id="prediction.json">
+{
+  "rate": 0.025,
+  "reason": "The Federal Reserve is likely to maintain a restrictive stance through 2024 to ensure inflation is firmly on track to 2%. By December 2025, assuming inflation has moderated sustainably, the Fed will have likely initiated a series of rate cuts. A rate of 2.5% would reflect a more normalized, yet still slightly restrictive, monetary policy, balancing economic growth with price stability, assuming no major economic shocks."
+}
+    </script>
+
+    <script type="text/plain" id="LICENSE">
+MIT License
+
+Copyright (c) 2024 [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+    </script>
+
+    <script type="text/plain" id="uid.txt">
+26220202218574734838576565443336709848520014253735841716811747887661358407089
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const contentDisplay = document.getElementById('content-display');
+            const links = document.querySelectorAll('.list-group-item a');
+
+            const displayFileContent = (fileId) => {
+                const scriptTag = document.getElementById(fileId);
+                if (scriptTag) {
+                    let content = scriptTag.textContent.trim();
+                    let displayHtml = '';
+                    const fileExtension = fileId.split('.').pop();
+
+                    switch (fileExtension) {
+                        case 'txt':
+                        case 'LICENSE': // Treat LICENSE as plain text
+                            displayHtml = `<pre><code>${content}</code></pre>`;
+                            break;
+                        case 'json':
+                            try {
+                                const parsedJson = JSON.parse(content);
+                                displayHtml = `<pre><code class="language-json">${JSON.stringify(parsedJson, null, 2)}</code></pre>`;
+                            } catch (e) {
+                                displayHtml = `<p class="text-danger">Error parsing JSON: ${e.message}</p><pre><code>${content}</code></pre>`;
+                            }
+                            break;
+                        case 'md':
+                            displayHtml = marked.parse(content);
+                            break;
+                        case 'svg':
+                            displayHtml = content; // Directly embed SVG
+                            break;
+                        default:
+                            displayHtml = `<pre><code>${content}</code></pre>`;
+                    }
+                    contentDisplay.innerHTML = displayHtml;
+                    // Apply highlighting to newly added code blocks
+                    contentDisplay.querySelectorAll('pre code').forEach((block) => {
+                        hljs.highlightElement(block);
+                    });
+                } else {
+                    contentDisplay.innerHTML = `<p class="text-danger">File content for "${fileId}" not found.</p>`;
+                }
+            };
+
+            links.forEach(link => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const fileId = event.target.getAttribute('data-file-id');
+                    displayFileContent(fileId);
+                });
+            });
+
+            // Optional: Handle ?file= parameter for initial load
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialFile = urlParams.get('file');
+            if (initialFile) {
+                displayFileContent(initialFile);
+            }
+        });
+    </script>
+</body>
+</html>
